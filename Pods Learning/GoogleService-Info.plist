@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>353230889246-efg47tdf41154h4q50kas6baccic73tf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.353230889246-efg47tdf41154h4q50kas6baccic73tf</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>353230889246-nfkvvb29vir14mv37qasrr48tppqgv9f.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCHw9aEr7hvY-1fbRdrK0M0U2N5f1coKzc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>353230889246</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kamlesh.Pods-Learning</string>
+	<key>PROJECT_ID</key>
+	<string>pods-learning</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pods-learning.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:353230889246:ios:50ae595a8deead99f7e90f</string>
+	<key>DATABASE_URL</key>
+	<string>https://pods-learning.firebaseio.com</string>
+</dict>
+</plist>

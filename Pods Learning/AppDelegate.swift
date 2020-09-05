@@ -7,14 +7,29 @@
 //
 
 import UIKit
+import Firebase
 
+@available(iOS 13.0, *)
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let navigationBarAppearace = UINavigationBar.appearance()
+
+        navigationBarAppearace.tintColor = .black
+        navigationBarAppearace.setBackgroundImage(UIImage(), for: .default)
+        navigationBarAppearace.shadowImage = UIImage()
+        navigationBarAppearace.backgroundColor = .clear
+        navigationBarAppearace.isTranslucent = true
+
+        // change navigation bar title color
+        navigationBarAppearace.titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor.black]
+        
+        //MARK: Configuring Firebase
+        FirebaseApp.configure()
+        
         return true
     }
 

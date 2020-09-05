@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1AFCEADF2500E8FB007A9B6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCEADE2500E8FB007A9B6C /* AppDelegate.swift */; };
 		1AFCEAE12500E8FB007A9B6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCEAE02500E8FB007A9B6C /* SceneDelegate.swift */; };
-		1AFCEAE32500E8FB007A9B6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCEAE22500E8FB007A9B6C /* ViewController.swift */; };
-		1AFCEAE62500E8FB007A9B6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFCEAE42500E8FB007A9B6C /* Main.storyboard */; };
+		1AFCEAE32500E8FB007A9B6C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCEAE22500E8FB007A9B6C /* SignInViewController.swift */; };
 		1AFCEAE82500E900007A9B6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFCEAE72500E900007A9B6C /* Assets.xcassets */; };
 		1AFCEAEB2500E900007A9B6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFCEAE92500E900007A9B6C /* LaunchScreen.storyboard */; };
+		1AFCEAF32500EDC6007A9B6C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AFCEAF22500EDC6007A9B6C /* GoogleService-Info.plist */; };
+		1AFCEAF52500EFEF007A9B6C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCEAF42500EFEF007A9B6C /* HomeViewController.swift */; };
+		1AFCEAF92500F062007A9B6C /* CoursesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCEAF82500F062007A9B6C /* CoursesCollectionViewCell.swift */; };
+		1AFCEAFB2500F21B007A9B6C /* VerifyOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCEAFA2500F21B007A9B6C /* VerifyOTPViewController.swift */; };
+		1AFCEAFD25010044007A9B6C /* globalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCEAFC25010044007A9B6C /* globalConstants.swift */; };
+		1AFCEAFF25011C77007A9B6C /* CourseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCEAFE25011C77007A9B6C /* CourseDetailsViewController.swift */; };
+		1AFCEB0225012FBC007A9B6C /* ChapterDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCEB0125012FBC007A9B6C /* ChapterDetailsTableViewCell.swift */; };
+		2765C8D9AD0A8BFA1F2E177D /* Pods_Pods_Learning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7EDB7EBCEF3F306F6F49B7 /* Pods_Pods_Learning.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1AFCEADB2500E8FB007A9B6C /* Pods Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pods Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AFCEADE2500E8FB007A9B6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AFCEAE02500E8FB007A9B6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1AFCEAE22500E8FB007A9B6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1AFCEAE52500E8FB007A9B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AFCEAE22500E8FB007A9B6C /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		1AFCEAE72500E900007A9B6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AFCEAEA2500E900007A9B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AFCEAEC2500E900007A9B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFCEAF22500EDC6007A9B6C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1AFCEAF42500EFEF007A9B6C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1AFCEAF82500F062007A9B6C /* CoursesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesCollectionViewCell.swift; sourceTree = "<group>"; };
+		1AFCEAFA2500F21B007A9B6C /* VerifyOTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyOTPViewController.swift; sourceTree = "<group>"; };
+		1AFCEAFC25010044007A9B6C /* globalConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = globalConstants.swift; sourceTree = "<group>"; };
+		1AFCEAFE25011C77007A9B6C /* CourseDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailsViewController.swift; sourceTree = "<group>"; };
+		1AFCEB0125012FBC007A9B6C /* ChapterDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		2D7EDB7EBCEF3F306F6F49B7 /* Pods_Pods_Learning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pods_Learning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		488F0CAC79870F21FBA2C16E /* Pods-Pods Learning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pods Learning.debug.xcconfig"; path = "Target Support Files/Pods-Pods Learning/Pods-Pods Learning.debug.xcconfig"; sourceTree = "<group>"; };
+		6969990426674AF8A7D4FFDE /* Pods-Pods Learning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pods Learning.release.xcconfig"; path = "Target Support Files/Pods-Pods Learning/Pods-Pods Learning.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2765C8D9AD0A8BFA1F2E177D /* Pods_Pods_Learning.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01C3FA32928582B4AC2FCD6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D7EDB7EBCEF3F306F6F49B7 /* Pods_Pods_Learning.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1AFCEAD22500E8FB007A9B6C = {
 			isa = PBXGroup;
 			children = (
 				1AFCEADD2500E8FB007A9B6C /* Pods Learning */,
 				1AFCEADC2500E8FB007A9B6C /* Products */,
+				7135739FDBC98D3BBFBF77D4 /* Pods */,
+				01C3FA32928582B4AC2FCD6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +85,52 @@
 			children = (
 				1AFCEADE2500E8FB007A9B6C /* AppDelegate.swift */,
 				1AFCEAE02500E8FB007A9B6C /* SceneDelegate.swift */,
-				1AFCEAE22500E8FB007A9B6C /* ViewController.swift */,
-				1AFCEAE42500E8FB007A9B6C /* Main.storyboard */,
+				1AFCEAFC25010044007A9B6C /* globalConstants.swift */,
+				1AFCEAF72500F00C007A9B6C /* ViewControllers */,
 				1AFCEAE72500E900007A9B6C /* Assets.xcassets */,
 				1AFCEAE92500E900007A9B6C /* LaunchScreen.storyboard */,
 				1AFCEAEC2500E900007A9B6C /* Info.plist */,
+				1AFCEAF22500EDC6007A9B6C /* GoogleService-Info.plist */,
 			);
 			path = "Pods Learning";
+			sourceTree = "<group>";
+		};
+		1AFCEAF62500EFFC007A9B6C /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1AFCEAF42500EFEF007A9B6C /* HomeViewController.swift */,
+				1AFCEAF82500F062007A9B6C /* CoursesCollectionViewCell.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		1AFCEAF72500F00C007A9B6C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1AFCEAE22500E8FB007A9B6C /* SignInViewController.swift */,
+				1AFCEAFA2500F21B007A9B6C /* VerifyOTPViewController.swift */,
+				1AFCEAF62500EFFC007A9B6C /* HomeViewController */,
+				1AFCEB0025012F89007A9B6C /* CourseDetailsViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1AFCEB0025012F89007A9B6C /* CourseDetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1AFCEAFE25011C77007A9B6C /* CourseDetailsViewController.swift */,
+				1AFCEB0125012FBC007A9B6C /* ChapterDetailsTableViewCell.swift */,
+			);
+			path = CourseDetailsViewController;
+			sourceTree = "<group>";
+		};
+		7135739FDBC98D3BBFBF77D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				488F0CAC79870F21FBA2C16E /* Pods-Pods Learning.debug.xcconfig */,
+				6969990426674AF8A7D4FFDE /* Pods-Pods Learning.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AFCEAEF2500E900007A9B6C /* Build configuration list for PBXNativeTarget "Pods Learning" */;
 			buildPhases = (
+				D15629AC6C249FFC420691C2 /* [CP] Check Pods Manifest.lock */,
 				1AFCEAD72500E8FB007A9B6C /* Sources */,
 				1AFCEAD82500E8FB007A9B6C /* Frameworks */,
 				1AFCEAD92500E8FB007A9B6C /* Resources */,
+				8BE38D264692E96AF25435BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,35 +194,75 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AFCEAEB2500E900007A9B6C /* LaunchScreen.storyboard in Resources */,
+				1AFCEAF32500EDC6007A9B6C /* GoogleService-Info.plist in Resources */,
 				1AFCEAE82500E900007A9B6C /* Assets.xcassets in Resources */,
-				1AFCEAE62500E8FB007A9B6C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BE38D264692E96AF25435BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pods Learning/Pods-Pods Learning-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pods Learning/Pods-Pods Learning-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pods Learning/Pods-Pods Learning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D15629AC6C249FFC420691C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pods Learning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1AFCEAD72500E8FB007A9B6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AFCEAE32500E8FB007A9B6C /* ViewController.swift in Sources */,
+				1AFCEAE32500E8FB007A9B6C /* SignInViewController.swift in Sources */,
+				1AFCEAF92500F062007A9B6C /* CoursesCollectionViewCell.swift in Sources */,
+				1AFCEB0225012FBC007A9B6C /* ChapterDetailsTableViewCell.swift in Sources */,
 				1AFCEADF2500E8FB007A9B6C /* AppDelegate.swift in Sources */,
+				1AFCEAFD25010044007A9B6C /* globalConstants.swift in Sources */,
 				1AFCEAE12500E8FB007A9B6C /* SceneDelegate.swift in Sources */,
+				1AFCEAF52500EFEF007A9B6C /* HomeViewController.swift in Sources */,
+				1AFCEAFF25011C77007A9B6C /* CourseDetailsViewController.swift in Sources */,
+				1AFCEAFB2500F21B007A9B6C /* VerifyOTPViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1AFCEAE42500E8FB007A9B6C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1AFCEAE52500E8FB007A9B6C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1AFCEAE92500E900007A9B6C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,11 +390,13 @@
 		};
 		1AFCEAF02500E900007A9B6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 488F0CAC79870F21FBA2C16E /* Pods-Pods Learning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DSYT98A5D3;
 				INFOPLIST_FILE = "Pods Learning/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,17 +404,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kamlesh.Pods-Learning";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1AFCEAF12500E900007A9B6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6969990426674AF8A7D4FFDE /* Pods-Pods Learning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DSYT98A5D3;
 				INFOPLIST_FILE = "Pods Learning/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +424,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kamlesh.Pods-Learning";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
